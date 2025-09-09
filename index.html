@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wisteria — Handmade Accessories</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader-container">
+    <img src="loader.svg" alt="Loading..." class="loader">
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.jpg" alt="Wisteria logo">
+      <span>Wisteria</span>
+    </div>
+    <nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="cart.html" class="badge-link">Cart(<span id="cart-count">0</span>)</a></li>
+    <li><a href="wishlist.html" class="badge-link">Wishlist(<span id="wish-count">0</span>)</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+  <video id="heroVideo" class="hero-video" autoplay muted playsinline></video>
+  <div class="hero-overlay"></div>
+  <h1 class="hero-title">Wisteria</h1>
+  <p class="hero-sub">Handmade bead accessories with a touch of magic</p>
+  <a href="#shop" class="btn-primary">Shop Now</a>
+</section>
+
+
+  <!-- Products -->
+  <main id="shop" class="shop">
+    <h2>Shop Our Collection</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <article class="product-card" 
+         data-id="1" 
+         data-name="keychain" 
+         data-price="170" 
+         data-image="images/product1.jpg"
+         data-colors='["Pink","blue"]'>
+  <div class="thumb" style="background-image:url('images/product1.jpg')"></div>
+  <h3>beaded dream catcher keychain</h3>
+  <p class="price">₹170</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+      <!-- Product 2 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="99" 
+         data-image="images/product2.jpg"
+         data-colors='["Pink","blue","purple"]'>
+  <div class="thumb" style="background-image:url('images/product2.jpg')"></div>
+  <h3>butterfly phone charm</h3>
+  <p class="price">₹99</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+      <!-- Product 3 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="120" 
+         data-image="images/product3.jpg"
+         data-colors='["Pink","blue","purple","clear","green"]'>
+  <div class="thumb" style="background-image:url('images/product3.jpg')"></div>
+  <h3>Heart phone charm</h3>
+  <p class="price">₹120</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 4 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="120" 
+         data-image="images/product4.jpg"
+         data-colors='["Pink-blue"]'>
+  <div class="thumb" style="background-image:url('images/product4.jpg')"></div>
+  <h3>Cotton candy phone charm</h3>
+  <p class="price">₹120</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 5 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="120" 
+         data-image="images/product5.jpg"
+         data-colors='["Pink","blue","purple"]'>
+  <div class="thumb" style="background-image:url('images/product5.jpg')"></div>
+  <h3>metal bow phone charm</h3>
+  <p class="price">₹120</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 6 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="keychain" 
+         data-price="200" 
+         data-image="images/product6.jpg"
+         data-colors='["Pink"]'>
+  <div class="thumb" style="background-image:url('images/product6.jpg')"></div>
+  <h3>Chunky heart keychain</h3>
+  <p class="price">₹200</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 7 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="necklace" 
+         data-price="150" 
+         data-image="images/product7.jpg"
+         data-colors='["Pink"]'>
+  <div class="thumb" style="background-image:url('images/product7.jpg')"></div>
+  <h3>Heart necklace</h3>
+  <p class="price">₹150</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 8 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="130" 
+         data-image="images/product8.jpg"
+         data-colors='["Pink","dark pink","clear"]'>
+  <div class="thumb" style="background-image:url('images/product8.jpg')"></div>
+  <h3>Tulip phone charm</h3>
+  <p class="price">₹130</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 9 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="110" 
+         data-image="images/product9.jpg"
+         data-colors='["Pink","purple","dark pink","blue","beige"]'>
+  <div class="thumb" style="background-image:url('images/product9.jpg')"></div>
+  <h3>Bow phone charm</h3>
+  <p class="price">₹110</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+<!-- Product 10 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="120" 
+         data-image="images/product10.jpg"
+         data-colors='["metal bow","metal heart"]'>
+  <div class="thumb" style="background-image:url('images/product10.jpg')"></div>
+  <h3>Elegant phone charm</h3>
+  <p class="price">₹120</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+  
+<!-- Product 11 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="phone charm" 
+         data-price="120" 
+         data-image="images/product11.jpg"
+         data-colors='["lavender","peach"]'>
+  <div class="thumb" style="background-image:url('images/product11.jpg')"></div>
+  <h3>Chunky bow phone charm</h3>
+  <p class="price">₹120</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+  
+<!-- Product 12 -->
+     <article class="product-card" 
+         data-id="1" 
+         data-name="keychain" 
+         data-price="180" 
+         data-image="images/product12.jpg"
+         data-colors='["Pink","purple"]'>
+  <div class="thumb" style="background-image:url('images/product12.jpg')"></div>
+  <h3>Butterfly keychain</h3>
+  <p class="price">₹180</p>
+  <div class="actions">
+    <button class="btn-outline btn-wish">♡ Wishlist</button>
+    <button class="btn-primary btn-cart">Add to Cart</button>
+  </div>
+</article>
+
+  </main>
+
+  <!-- Cart Modal -->
+<div id="cartModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modal-img" src="" alt="">
+    <h3 id="modal-name"></h3>
+    <p id="modal-price"></p>
+
+    <label>Color:
+     <select id="modal-color"></select>
+
+    </label>
+
+    <label>Quantity:
+      <input type="number" id="modal-qty" value="1" min="1">
+    </label>
+
+    <button id="confirmAdd" class="btn-primary">Confirm Add to Cart</button>
+  </div>
+</div>
+<!-- Custom Order Chat Widget -->
+<div id="customChat" class="chat-circle">💬</div>
+
+<div id="chatModal" class="chat-modal">
+  <div class="chat-header">
+    <span>Custom Order Request</span>
+    <span id="chatClose" class="chat-close">&times;</span>
+  </div>
+  <div class="chat-body">
+    <form id="customOrderForm">
+      <label for="customText">Describe your order:</label>
+      <textarea id="customText" rows="4" placeholder="Type what you want..."></textarea>
+
+      <label for="customImage">Upload reference image:</label>
+      <input type="file" id="customImage" accept="image/*">
+
+      <button type="submit" class="btn-primary">Send Request</button>
+    </form>
+    <div id="chatSuccess" style="display:none; margin-top:10px; color:green;">Request sent! We'll contact you soon.</div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Wisteria | by Krisha Gore 🌸</p>
+
+    <ul class="socials">
+      <li>
+        <a href="mailto:wisteria.official25@gmail.com" target="_blank" aria-label="Email">
+          <img src="images/112-gmail_email_mail-64.webp" alt="Email">
+        </a>
+      </li>
+      <li>
+        <a href="#" target="_blank" aria-label="Instagram">
+          <img src="images/6929237_instagram_icon.png" alt="Instagram">
+        </a>
+      </li>
+  
+    </ul>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define Gradient for Shine Effect -->
+  <defs>
+    <radialGradient id="shine" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- Bead 1 -->
+  <circle cx="40" cy="50" r="10" fill="url(#shine)" stroke="#ffb6c1" stroke-width="3">
+    <animate attributeName="cy" values="50;30;50" dur="0.6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Bead 2 -->
+  <circle cx="80" cy="50" r="10" fill="url(#shine)" stroke="#ffdab9" stroke-width="3">
+    <animate attributeName="cy" values="50;20;50" dur="0.6s" begin="0.1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Bead 3 -->
+  <circle cx="120" cy="50" r="10" fill="url(#shine)" stroke="#add8e6" stroke-width="3">
+    <animate attributeName="cy" values="50;25;50" dur="0.6s" begin="0.2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Bead 4 -->
+  <circle cx="160" cy="50" r="10" fill="url(#shine)" stroke="#d8bfd8" stroke-width="3">
+    <animate attributeName="cy" values="50;30;50" dur="0.6s" begin="0.3s" repeatCount="indefinite" />
+  </circle>
+</svg>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wisteria — Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.jpg" alt="Wisteria logo">
+      <span>Wisteria</span>
+    </div>
+    <nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html" class="badge-link">Cart(<span id="cart-count">0</span>)</a></li>
+        <li><a href="wishlist.html" class="badge-link">Wishlist(<span id="wish-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cart -->
+  <main class="shop">
+    <h2>Your Cart</h2>
+    <div id="cart-grid" class="product-grid"></div>
+    <div id="cart-total" style="text-align:center; margin-top:1.5rem; font-weight:700;"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
